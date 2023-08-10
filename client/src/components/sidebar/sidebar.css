@@ -1,0 +1,81 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutSection>h1 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(70,70,70);
+}
+
+.aboutSection>img {
+    margin: 10px 0px 20px 0px;
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+
+}
+
+.aboutSection>p{
+    color: rgb(70, 70, 70);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+}
+
+.categoriesSection>h1 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(70,70,70);
+}
+
+.categories>ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+li{
+    
+    display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.followUsSection>h1 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(70,70,70);
+}
+
+.socials{
+    display:flex;
+    gap:5px;
+    padding:20px;
+}

@@ -1,0 +1,11 @@
+.blogPage{
+    display: flex;
+    gap:70px;
+}
+
+.blog{
+    flex:4;
+}
+.sidebar{
+    flex:1;
+}

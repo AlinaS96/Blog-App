@@ -1,0 +1,43 @@
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 7%;
+    background-color: white;
+    z-index:1000;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    align-items: center;
+}
+
+.tpOptions {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.tpOptions>li {
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
+}
+
+.tpSearch {
+    display: flex;
+    gap:7px;
+    align-items: center;
+}
+
+.userIcon>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}

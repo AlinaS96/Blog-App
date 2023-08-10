@@ -1,0 +1,28 @@
+.homePosts{
+    display: flex;
+    justify-content: space-between;
+    gap:70px;
+    margin-top: 20px;
+}
+
+.posts{
+    flex:4;
+    display:flex;
+    flex-wrap: wrap;
+    gap:35px;
+    align-content: flex-start;
+    margin: 20px 0px 20px 35px;
+}
+
+.sidebar{
+    flex:1;
+}
+
+@media (max-width:600px){
+    .posts{
+        gap:10px
+    }
+.homePosts{
+    flex-direction: column;
+}
+}

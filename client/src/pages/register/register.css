@@ -1,0 +1,60 @@
+.registerWrapper {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)), 
+            url("https://images.pexels.com/photos/2180090/pexels-photo-2180090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    margin-top: 60px;
+}
+
+.loginBtn {
+    margin-top: 60px;
+    margin-left: 90%;
+    padding: 5px 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 5%;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.username>input {
+    height: 30px;
+    width: 250px;
+    border-radius: 10%;
+}
+
+.email>input {
+    height: 30px;
+    width: 250px;
+    border-radius: 10%;
+}
+
+.password>input {
+    height: 30px;
+    width: 250px;
+    border-radius: 10%;
+}
+
+.registerForm>button {
+    padding: 10px 15px;
+    width: 250px;
+    border: none;
+    color: white;
+    background-color: rgb(184, 56, 114);
+    border-radius: 5%;
+}

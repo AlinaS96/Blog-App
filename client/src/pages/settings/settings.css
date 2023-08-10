@@ -1,0 +1,12 @@
+.settings {
+    display: flex;
+    gap:70px;
+}
+
+.update {
+    flex: 4;
+}
+
+.sidebar {
+    flex: 1;
+}

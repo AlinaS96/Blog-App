@@ -1,0 +1,127 @@
+.update{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex:4;
+}
+
+.profilePic>span{
+    font-size: 20px;
+}
+
+.formImage{
+    display: flex;
+    gap:20px;
+}
+
+.username>span{
+    font-size: 20px;
+}
+
+.email>span{
+    font-size: 20px;
+}
+
+.password>span{
+    font-size: 20px;
+}
+
+.update>h1{
+    color:rgb(255, 94, 140);
+    font-size: 20px;
+    margin:0px 0px 10px 20px;
+}
+
+.deleteBtn{
+    text-align: right;
+    border:none;
+    background-color: white;
+    width: 120px;
+    margin-left:85% ;
+    color:rgb(255, 94, 140);
+}
+
+.updateForm{
+    margin: 10px 0px 15px 20px;
+     display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.profilePic{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.formImage>img{
+    height: 65px;
+    width: 65px;
+    border-radius: 20%;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-bottom: 10px;
+}
+
+.username>input{
+    border:none;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    
+}
+
+.username>input:focus{
+    outline:none
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-bottom: 10px;
+}
+
+.email>input{
+    border:none;
+    border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+.email>input:focus{
+    outline:none
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.password>input{
+    border:none;
+    border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+
+.password>input:focus{
+    outline:none
+}
+
+.Btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.updateBtn{
+    width: 140px;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(0, 117, 117);
+    color: white;
+}
